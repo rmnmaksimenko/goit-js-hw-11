@@ -8,13 +8,33 @@
       rel="stylesheet"
       href="../node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styes.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/simplelightbox/src/simple-lightbox.scss"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div class="header"><h1>Проверка работоспособности</h1></div>
+      <div class="header">
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
     </header>
+    <ul class="gallery"></ul>
+    <div class="search-container">
+      <button class="search-more">Искать дальше...</button>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
