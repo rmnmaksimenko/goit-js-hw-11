@@ -31,7 +31,7 @@ searchMoreButton.addEventListener('click', searchMore);
 var lightbox;
 
 async function searchMore() {
-  searchMoreButton.disable = true;
+  searchMoreButton.disabled = true;
   pageNumber += 1;
   await search();
 }
@@ -55,7 +55,7 @@ async function search() {
     galleryBLock += picture;
   }
   if (pictures.hits.length === 40) {
-    searchMoreButton.disable = false;
+    searchMoreButton.disabled = false;
     searchMoreButton.classList.remove('is-hidden');
   } else {
     searchMoreButton.classList.add('is-hidden');
