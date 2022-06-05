@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://rmnmaksimenko.github.io/goit-js-hw11",
+  "homepage": "https://rmnmaksimenko.github.io/goit-js-hw-11",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw11/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmnmaksimenko/goit-js-hw11"
+    "url": "git+https://github.com/rmnmaksimenko/goit-js-hw-11"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmnmaksimenko/goit-js-hw11/issues"
+    "url": "https://github.com/rmnmaksimenko/goit-js-hw-11/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
