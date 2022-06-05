@@ -24,7 +24,7 @@ async function startSearch(e) {
   }
   // console.log(options);
   currentSearchValue = searchArea[0].value;
-  console.log(searchMoreButton.classList);
+  // console.log(searchMoreButton.classList);
   pageNumber = 1;
   search();
 }
@@ -43,9 +43,9 @@ async function search() {
   const responce = await fetch(
     `${PIXA_URL}api/?${options}&q=${currentSearchValue}&page=${pageNumber}&per_page=40`
   );
-  console.log(responce);
+  // console.log(responce);
   const pictures = await responce.json();
-  console.log(pictures);
+  // console.log(pictures);
   if (pictures.hits.length === 0) {
     ClearSearch();
     Notiflix.Notify.failure(
